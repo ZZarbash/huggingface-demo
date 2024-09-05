@@ -1,5 +1,5 @@
 from transformers import pipeline
-import gradio as gradio
+import gradio as gr
 
 model = pipeline("summarization")
 
