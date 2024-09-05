@@ -32,10 +32,10 @@ jobs:
       - name: Add remote
         env:
           HUGFEJS: ${{ secrets.HUGFEJS }}
-        run: git remote add space https:IvaZa:$HUGFEJS@huggingface.co/spaces/IvaZa/demo
+        run: git remote add space https://IvaZa:$HUGFEJS@huggingface.co/spaces/IvaZa/demo
 
       # Runs a set of commands using the runners shell
       - name: Push to hub
         env:
           HUGFEJS: ${{ secrets.HUGFEJS }}
-        run: git push --force https:??IvaZa:$HUGFEJS@huggingface.co/spaces/IvaZa/demo main
+        run: git push --force https://IvaZa:$HUGFEJS@huggingface.co/spaces/IvaZa/demo main
